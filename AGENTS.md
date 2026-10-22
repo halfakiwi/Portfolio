@@ -3,8 +3,17 @@
 ## Scope
 
 - Build a personal portfolio with five pages: Home, About Me, Projects, Skills, and Contact.
+- Focus the portfolio specifically on theater, performance, and the performing arts.
+- Present me primarily as a performer rather than as a general academic or engineering portfolio.
 - Work on only one requested task at a time.
-- For the initial task, create only this `AGENTS.md` file. Do not create HTML, CSS, JavaScript, images, or other website files until requested.
+
+## Page Purposes
+
+- **Home:** Introduce me as a performer and provide navigation to the rest of my portfolio.
+- **About Me:** Focus on my background in theater, acting, dance, vocal performance, training, education, and artistic interests.
+- **Projects:** Showcase productions, performances, and other performing arts work.
+- **Skills:** Highlight performance-related skills such as acting, dance, voice, theater experience, and other relevant abilities.
+- **Contact:** Provide a professional way to contact me regarding productions, collaborations, and performance opportunities.
 
 ## Design Direction
 
