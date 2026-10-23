@@ -305,6 +305,52 @@ main > .skills-grid {
   letter-spacing: 0.03em;
 }
 
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.contact-introduction {
+  min-width: 0;
+  padding-top: 1.5rem;
+  border-top: 3px double var(--gold);
+}
+
+.contact-introduction h2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+.contact-correspondence {
+  min-width: 0;
+  padding: 2rem;
+  border: 1px solid var(--gold);
+  border-top: 4px double var(--burgundy);
+  background: var(--cream);
+}
+
+.contact-main #form-note {
+  padding-inline-start: 0.75rem;
+  border-inline-start-width: 2px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-correspondence form {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.contact-correspondence label {
+  color: var(--burgundy);
+}
+
+.contact-correspondence button {
+  border-bottom: 3px solid var(--gold);
+}
+
 article {
   padding-inline-start: 1.5rem;
   border-inline-start: 3px solid var(--burgundy);
@@ -431,6 +477,15 @@ footer p {
 }
 
 @media (max-width: 40rem) {
+  .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .contact-correspondence {
+    padding: 1.25rem;
+  }
+
   main > .skills-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.5rem;

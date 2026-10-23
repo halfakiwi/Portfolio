@@ -24,40 +24,45 @@
     </nav>
   </header>
 
-  <main id="main-content" tabindex="-1">
+  <main id="main-content" class="contact-main" tabindex="-1">
     <h1>Contact</h1>
-    <p>I welcome inquiries about theater productions, performance opportunities, collaborations, and other performing arts opportunities. I’d love to hear about your project.</p>
+    <div class="contact-layout">
+      <section class="contact-introduction" aria-labelledby="creative-heading">
+        <h2 id="creative-heading">Let’s Create Something!</h2>
+        <p>Have a production, performance opportunity, or creative project in mind? I’d love to hear about it! Whether it’s acting, dance, musical theatre, directing, or another opportunity to create something together, feel free to reach out.</p>
+      </section>
 
-    <section aria-labelledby="contact-form-heading">
-      <h2 id="contact-form-heading">Get in Touch</h2>
-      <p id="form-note">This form is for portfolio demonstration purposes and does not currently send messages.</p>
-      <p id="form-instructions">All fields are required.</p>
+      <section class="contact-correspondence" aria-labelledby="contact-form-heading">
+        <h2 id="contact-form-heading">Get in Touch</h2>
+        <p id="form-note">This form is for portfolio demonstration purposes and does not currently send messages.</p>
+        <p id="form-instructions">All fields are required.</p>
 
-      <form id="contact-form" aria-labelledby="contact-form-heading" aria-describedby="form-note form-instructions">
-        <p>
-          <label for="contact-name">Name (required)</label>
-          <input type="text" id="contact-name" name="name" autocomplete="name" aria-describedby="contact-name-error" required>
-          <span id="contact-name-error" class="field-error" hidden></span>
-        </p>
-        <p>
-          <label for="contact-email">Email (required)</label>
-          <input type="email" id="contact-email" name="email" autocomplete="email" aria-describedby="contact-email-error" required>
-          <span id="contact-email-error" class="field-error" hidden></span>
-        </p>
-        <p>
-          <label for="contact-subject">Subject (required)</label>
-          <input type="text" id="contact-subject" name="subject" aria-describedby="contact-subject-error" required>
-          <span id="contact-subject-error" class="field-error" hidden></span>
-        </p>
-        <p>
-          <label for="contact-message">Message (required)</label>
-          <textarea id="contact-message" name="message" rows="6" aria-describedby="contact-message-error" required></textarea>
-          <span id="contact-message-error" class="field-error" hidden></span>
-        </p>
-        <button type="submit" aria-describedby="form-note">Send Message</button>
-        <p id="form-status" class="form-status" role="status" aria-atomic="true"></p>
-      </form>
-    </section>
+        <form id="contact-form" aria-labelledby="contact-form-heading" aria-describedby="form-note form-instructions">
+          <p>
+            <label for="contact-name">Name (required)</label>
+            <input type="text" id="contact-name" name="name" autocomplete="name" aria-describedby="contact-name-error" required>
+            <span id="contact-name-error" class="field-error" hidden></span>
+          </p>
+          <p>
+            <label for="contact-email">Email (required)</label>
+            <input type="email" id="contact-email" name="email" autocomplete="email" aria-describedby="contact-email-error" required>
+            <span id="contact-email-error" class="field-error" hidden></span>
+          </p>
+          <p>
+            <label for="contact-subject">Subject (required)</label>
+            <input type="text" id="contact-subject" name="subject" aria-describedby="contact-subject-error" required>
+            <span id="contact-subject-error" class="field-error" hidden></span>
+          </p>
+          <p>
+            <label for="contact-message">Message (required)</label>
+            <textarea id="contact-message" name="message" rows="6" aria-describedby="contact-message-error" required></textarea>
+            <span id="contact-message-error" class="field-error" hidden></span>
+          </p>
+          <button type="submit" aria-describedby="form-note">Send Message</button>
+          <p id="form-status" class="form-status" role="status" aria-atomic="true"></p>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer>
