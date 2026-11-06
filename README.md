@@ -52,5 +52,4 @@ The deployed website was tested for navigation, responsive layouts, JavaScript i
 - This portfolio was created as a web development project and personal performing arts portfolio.
 - The Contact form is a front-end demonstration and does not transmit or store messages.
 - The portfolio uses original/personal performance images supplied for the project.
-- The *Sense & Sensibility* project currently uses a styled “Production Photo Coming Soon” placeholder until a production photo is available.
 - The website was developed with assistance from OpenAI Codex for code generation and iterative development, with changes reviewed and tested throughout the project.
