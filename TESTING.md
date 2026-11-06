@@ -19,8 +19,8 @@ Testing was performed on the deployed GitHub Pages website: [Lineth Garach’s P
 | 11 | Keyboard navigation. | Navigation links, form controls, and interactive elements can be reached and operated using the keyboard. | PASS |
 | 12 | Skip-to-main-content link. | The skip link becomes available when keyboard focused and moves focus to the main content. | PASS |
 | 13 | Mobile menu keyboard operation. | The menu can be opened using the keyboard, navigation links can be reached with Tab, and Escape closes the menu and returns focus to the Menu button. | PASS |
-| 14 | Portfolio images. | The headshot and production photos load correctly, maintain their proportions, and do not break the page layout. | PASS |
-| 15 | Sense & Sensibility project placeholder. | The “Production Photo Coming Soon” placeholder displays correctly without a broken image. | PASS |
+| 14 | Portfolio images. | All portfolio photographs, including Sense & Sensibility, load correctly, maintain their proportions, and do not break the page layout. | PASS |
+| 15 | Sense & Sensibility production photograph | The optimized production photograph loads correctly on the Projects page without broken images, distortion, or layout problems. | PASS |
 
 ## Lighthouse Accessibility Testing
 
@@ -54,5 +54,5 @@ Keyboard-only testing confirmed:
 
 - Testing was performed on the deployed GitHub Pages site rather than only local files.
 - The Contact form is intentionally a demonstration and does not transmit or store messages.
-- Sense & Sensibility currently uses a styled “Production Photo Coming Soon” placeholder rather than a broken or temporary external image.
+- The Sense & Sensibility production photograph was optimized to 215,518 bytes, meeting the project's 500 KB image-size requirement.
 - All current portfolio image files are under the project’s 500 KB image-size requirement.
